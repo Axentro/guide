@@ -19,8 +19,8 @@
 ## CLI Configuration
 
 * [What is CLI config?](config/cli-config.md)
-* [Config for convenience](how-to-use.md)
-* [Supported config](supported-config.md)
+* [Config for convenience](config/how-to-use.md)
+* [Supported config](config/supported-config.md)
 
 ## Sushi CLI Client
 
