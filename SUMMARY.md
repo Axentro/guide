@@ -5,9 +5,9 @@
 ## Getting Started
 
 * [Installation]()
-* [Creating a wallet](creating-a-wallet.md)
-* [Mining](mining.md)
-* [Sending coins](sending-coins.md)
+* [Creating a wallet](getting-started/creating-a-wallet.md)
+* [Mining](getting-started/mining.md)
+* [Sending coins](getting-started/sending-coins.md)
 
 ## Human Readable Addresses
 
