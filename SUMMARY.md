@@ -13,7 +13,6 @@
 
 * [What is SCARS?](scars/what-is-scars.md)
 * [Registering a domain](scars/registering-a-domain.md)
-
 * [Using the domain](scars/using-the-domain.md)
 * [Buying & selling domains](scars/buying-and-selling.md)
 
