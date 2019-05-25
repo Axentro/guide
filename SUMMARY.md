@@ -11,7 +11,7 @@
 
 ## Human Readable Addresses
 
-* [What is SCARS?](scars/scars.md)
+* [What is SCARS?](scars/what-is-scars.md)
 * [Registering a domain](scars/registering-a-domain.md)
 
 * [Using the domain](scars/using-the-domain.md)
@@ -32,4 +32,3 @@
 
 
 ## Sushid CLI Node
-
