@@ -1,4 +1,4 @@
-## Mining
+## Mining against the testnet
 
 Now it's time to do some mining. For mining we use the `sushim` binary.
 
