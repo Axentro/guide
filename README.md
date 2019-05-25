@@ -18,8 +18,9 @@ SushiChain is an original proof of work blockchain platform that empowers develo
 
 ## Specification
 
-|            Coin name |          Sushi           |
+|                      |                          |
 | -------------------: | :----------------------: |
+|            Coin name |          Sushi           |
 |          Coin ticker |          SUSHI           |
 |            Consensus |           PoW            |
 |         Block reward |        0.5 SUSHI         |
@@ -31,6 +32,3 @@ SushiChain is an original proof of work blockchain platform that empowers develo
 |      Minimum txn fee |       0.0001 SUSHI       |
 | PoW mining algorithm |         Argon2d          |
 |                 Port |           3000           |
-
-
-
