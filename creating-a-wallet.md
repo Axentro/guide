@@ -10,13 +10,13 @@ The `-w` flag is used to specify the file location of the new wallet you want to
 
 The `--testnet` flag is used to indicate that we want to create this wallet for use on the testnet. If we left this off - our wallet would be created using the default which is for mainnet.
 
-We can also create an encrypted wallet - see the [encrypt/decrypt the wallet](#encrypt-decrypt) section for more details.
+We can also create an encrypted wallet - see the [encrypt/decrypt the wallet](#encrypt-decrypt-a-wallet) section for more details.
 
 So now we have a wallet we can do a few things with it:
 
 * [verify it's a valid wallet](#verify-the-wallet)
 * [check the amount of coins we have in the wallet](#check-the-balance)
-* [encrypt/decrypt the wallet](#encrypt-decrypt)
+* [encrypt/decrypt the wallet](#encrypt-decrypt-a-wallet)
 
 ### Verify the wallet
 
@@ -81,4 +81,3 @@ This creates an encrypted version of the wallet prefixed with `encrypted` along 
 ```
 
 This creates an unencrypted version of the wallet prefixed with `unencrypted` along side the original
-
