@@ -44,3 +44,14 @@ When the local node starts it syncs with the connecting node (testnet in this ca
 > ./sushim -w testnet-wallet-1.json --testnet -n http://127.0.0.1:3000 --process=2
 ```
 
+
+
+## Rewards
+
+The main motivation for mining is to receive rewards. When a new block is mined the total payout is `0.5 SUSHI`. The node on which the block was mined always receives `25%` of the total payout and all the miners connected to the node receive a prorated amount depending on how many hashes each miner has worked through.
+
+For example a single miner on the network would expect to receive the full `75%` of the block reward. Three miners all working at approximately the same hash rate would receive `25%` each. In some cases if there are a great many miners connected to the node and some of them have an insignificant hash rate compared to the majority then they will not receive any reward.
+
+## Mining Pools
+
+Mining pools are supported on SushiChain. More information coming soon.
