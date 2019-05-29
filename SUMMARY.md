@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Installation]()
+* [Installation](getting-started/install.md)
 * [Creating a wallet](getting-started/creating-a-wallet.md)
 * [Mining](getting-started/mining.md)
 * [Sending coins](getting-started/sending-coins.md)
