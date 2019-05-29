@@ -18,15 +18,16 @@ Follow the directions below to install SushiChain from source:
 
 5. Install the binaries on your path (might need to use sudo):
 
-   `mkdir -p /usr/local/bin/sushichain
+   ```
+   mkdir -p /usr/local/bin/sushichain
 
    cp bin/sushi /usr/local/bin/sushichain
 
    cp bin/sushid /usr/local/bin/sushichain
 
    cp bin/sushim /usr/local/bin/sushichain
-
-   `
+   ```
+   
 
 6. You invoke the CLI binaries in your terminal by typing:
 
