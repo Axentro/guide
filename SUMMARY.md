@@ -31,6 +31,8 @@
   * [Token](cli-apps/sushi/token.md)
   * [Config](config/cli-config.md)
   * [Misc](cli-apps/sushi/misc.md)
+* [Blockchain miner (Sushim)](cli-apps/sushim.md)
+* [Blockchain node (Sushid)](cli-apps/sushid.md)
 
 
 
