@@ -1,5 +1,3 @@
-## Sushi - Blockchain Client
-
 ## Overview
 
 The command line app `sushi` is a blockchain client and provides many useful capabilities for interation with a blockchain node.
