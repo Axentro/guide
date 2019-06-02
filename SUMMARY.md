@@ -20,12 +20,26 @@
 
 * [What is CLI config?](config/cli-config.md)
 
-## CLI Apps
+## Blockchain client (Sushi)
 
-* [sushi - blockchain client](cli-apps/sushi.md)
-* [sushim - command line miner](cli-apps/sushim.md)
-* [sushid - blockchain node](cli-apps/sushid.md) 
+* [Overview](sushi/overview.md)
+* [Wallet](sushi/wallet.md)
+* [Blockchain](sushi/blockchain.md)
+* [Transaction](sushi/transaction.md) 
+* [Node](sushi/node.md)
+* [Human readable addresses](sushi/scars.md)
+* [Token](sushi/token.md)
+* [Config](config/cli-config.md)
+* [Misc](sushi/misc.md)
+
+## Blockchain miner (Sushim)
 
 
 
-## 
+
+
+
+
+
+
+##
