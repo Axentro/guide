@@ -20,12 +20,12 @@
 
 * [What is CLI config?](config/cli-config.md)
 
-## Sushi CLI Client
+## CLI Apps
+
+* [sushi - blockchain client](cli-apps/sushi.md)
+* [sushim - command line miner](cli-apps/sushim.md)
+* [sushid - blockchain node](cli-apps/sushid.md) 
 
 
 
-## Sushim CLI Miner
-
-
-
-## Sushid CLI Node
+## 
