@@ -13,23 +13,23 @@ available sub actions
 
 This retreives the size of the chain on the node you are querying:
 
-`sushi blockchain size -n http://testnet.sushichain.io:3000`
+`axe blockchain size -n http://testnet.axentro.io:3000`
 
 ### All
 
 This retrieves the whole blockchain as json
 
-`sushi blockchain all -n http://testnet.sushichain.io:3000`
+`axe blockchain all -n http://testnet.axentro.io:3000`
 
 You can also retrieve only the headers (no transactions) with:
 
-`sushi blockchain all --header -n http://testnet.sushichain.io:3000`
+`axe blockchain all --header -n http://testnet.axentro.io:3000`
 
 ### Block
 
 This retrieves a block containing either the specified transaction or by block index
 
-`sushi blockchain block -t 173914b8d56ebb503d0b94e56bbce160d4a4f12998fecfe6d77767d5d91c73f6 -n http://testnet.sushichain.io:3000`
+`axe blockchain block -t 173914b8d56ebb503d0b94e56bbce160d4a4f12998fecfe6d77767d5d91c73f6 -n http://testnet.axentro.io:3000`
 
 will return the block as json:
 
@@ -46,7 +46,7 @@ show a block for transaction: 173914b8d56ebb503d0b94e56bbce160d4a4f12998fecfe6d7
       "amount": 50462650
     }],
     "message": "0",
-    "token": "SUSHI",
+    "token": "axe",
     "prev_hash": "0",
     "timestamp": 1555008570,
     "scaled": 1
@@ -59,7 +59,7 @@ show a block for transaction: 173914b8d56ebb503d0b94e56bbce160d4a4f12998fecfe6d7
 }
 ```
 
-`sushi blockchain block -i 1 -n http://testnet.sushichain.io:3000`
+`axe blockchain block -i 1 -n http://testnet.axentro.io:3000`
 
 will return the block at index 1 in the chain as json:
 
@@ -76,7 +76,7 @@ show a block for index: 1
       "amount": 50462650
     }],
     "message": "0",
-    "token": "SUSHI",
+    "token": "AXE",
     "prev_hash": "0",
     "timestamp": 1555008570,
     "scaled": 1

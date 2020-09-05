@@ -3,7 +3,7 @@
 Config can be used with all the binaries and provides a shortcut when using the command line. Consider this example:
 
 ```bash
-> sushi tx create -m 5 -f 0.0001 -w wallets/w1.json -n http://testnet.sushichain.io:3000 -a some-address --testnet --password=password
+> axe tx create -m 5 -f 0.0001 -w wallets/w1.json -n http://testnet.axentro.io:3000 -a some-address --testnet --password=password
 ```
 
 For every command you have to specify several command line options. Config can save these so you don't have to pass them everytime and instead if not passed they are retrieved from the config store. If any of the options are provided on the command line then they override any previously stored config options.
@@ -11,7 +11,7 @@ For every command you have to specify several command line options. Config can s
 This provides a very easy to use and flexible configuration solution. The above command could be shortened using config to this:
 
 ```bash
-> sushi tx create -m 5 -f 0.0001 -a some-address
+> axe tx create -m 5 -f 0.0001 -a some-address
 ```
 
 we think you will agree that is much easier to work with.
@@ -22,7 +22,7 @@ There are 7 things you can do with config:
 
 ```
 available sub actions
- - save                 | save the specified options as default for sushi, sushid and sushim
+ - save                 | save the specified options as default for axe, axen and axem
  - show                 | show current default configuration
  - remove               | remove the default configuration
  - use                  | use the specified configuration
@@ -34,17 +34,17 @@ available sub actions
 In addition to those usages you can also override config completely - which is very hand if you have saved config for different things e.g
 
 ```bash
-> sushid --config=myserver1
-> sushim -c myminer1
-> sushi wallet amount -c wallet1
+> axen --config=myserver1
+> axem -c myminer1
+> axe wallet amount -c wallet1
 ```
 
 ### Save
 
-Save stores the specified config to the location: `~/.sushi/config`. You just have to supply the config you would like to save and a config name to save it under (the default name is config which is used if no name is supplied):
+Save stores the specified config to the location: `~/.axentro/config`. You just have to supply the config you would like to save and a config name to save it under (the default name is config which is used if no name is supplied):
 
 ```bash
-> sushi config save -n http://testnet.sushichain.io:3000 --testnet --config=myconfig
+> axe config save -n http://testnet.axentro.io:3000 --testnet --config=myconfig
 ```
 
 ### Show
@@ -52,13 +52,13 @@ Save stores the specified config to the location: `~/.sushi/config`. You just ha
 You can view the list of stored config using the show command:
 
 ```bash
-> sushi config show
+> axe config show
 ```
 ```
-current configuration is for: 's1t' in file /Users/kings/.sushi/config
+current configuration is for: 's1t' in file /Users/kings/.axentro/config
 configuration is Enabled
 --------------------
-connect_node:	http://testnet.sushichain.io:3000
+connect_node:	http://testnet.axentro.io:3000
 wallet_path:	/Users/kings/sc-wallets/w1.json
 is_testnet:	true
 is_private:	true
@@ -73,8 +73,8 @@ encrypted:	false
 If you want to remove a specific configuration or all configurations (this will delete the config file)
 
 ```bash
-> sushi config remove --config=myconfig
-> sushi config remove
+> axe config remove --config=myconfig
+> axe config remove
 ```
 
 ### Use
@@ -82,7 +82,7 @@ If you want to remove a specific configuration or all configurations (this will 
 If you want to switch to using a different default config:
 
 ```bash
-> sushi config use --config=myconfig
+> axe config use --config=myconfig
 ```
 
 ### List
@@ -90,7 +90,7 @@ If you want to switch to using a different default config:
 To see a list of all the saved configs
 
 ```bash
-> sushi config list
+> axe config list
 ```
 
 ### Enable / Disable
@@ -98,8 +98,8 @@ To see a list of all the saved configs
 If you want to completely disable configurations so they don't apply or turn them back on again:
 
 ```
-> sushi config disable
-> sushi config enable
+> axe config disable
+> axe config enable
 ```
 
 ## Supported config
@@ -112,11 +112,11 @@ The following config can be saved:
 | Wallet path     | -w          | all    |
 | Wallet password | --password= | all    |
 | Is testnet      | --testnet   | all    |
-| Is private      | --private   | sushid |
-| Bind host       | -h          | sushid |
-| Bind port       | -p          | sushid |
-| Public url      | -u          | sushid |
-| Database path   | -d          | sushid |
-| Threads         | --threads=  | sushim |
-| Encrypted       | -e          | sushi  |
+| Is private      | --private   | axen   |
+| Bind host       | -h          | axen   |
+| Bind port       | -p          | axen   |
+| Public url      | -u          | axen   |
+| Database path   | -d          | axen   |
+| Threads         | --threads=  | axem   |
+| Encrypted       | -e          | axe    |
 

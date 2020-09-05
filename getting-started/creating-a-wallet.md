@@ -3,7 +3,7 @@
 Let's create our first wallet on the testnet.
 
 ```bash
-> ./sushi wallet create -w testnet-wallet-1.json --testnet
+> ./axe wallet create -w testnet-wallet-1.json --testnet
 ```
 
 The `-w` flag is used to specify the file location of the new wallet you want to create. In this instance it's going to be created in the local directory you are running the command from - but you can specify any location to generate it into to.
@@ -21,7 +21,7 @@ So now we have a wallet we can do a few things with it:
 ### Verify the wallet
 
 ```bash
-> ./sushi wallet verify -w testnet-wallet-1.json
+> ./axe wallet verify -w testnet-wallet-1.json
 ```
 
 and we should see
@@ -35,7 +35,7 @@ network (T0): testnet
 ### Check the balance
 
 ```bash
-> ./sushi wallet amount -w testnet-wallet-1.json -n http://testnet.sushichain.io:3000
+> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io:3000
 ```
 
 Here we are checking the balance against the testnet - but you can supply the url of any node or even a locally running private node.
@@ -43,13 +43,13 @@ Here we are checking the balance against the testnet - but you can supply the ur
 When you check the balance it shows the amount after 1 confirmation. You can choose to supply more confirmations. Then number of confirmations is the number of blocks that have been added to the chain after the block that contains your transaction. Obviously the more blocks the more confidence you have that the block your transaction is in and the chain your are looking at as a whole is good. In the context of wallet amount it's looking at the balance at `latest block - number_of_confirmations`
 
 ```bash
-> ./sushi wallet amount -w testnet-wallet-1.json -n http://testnet.sushichain.io:3000 
+> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io:3000 
 ```
 
 This is checking the amount of coins that have been successfully processed on the testnet - It defaults to 1 confirmation (i.e. `latest block - 1`)
 
 ```bash
-> ./sushi wallet amount --confirmation=6 -w testnet-wallet-1.json -n http://testnet.sushichain.io:3000
+> ./axe wallet amount --confirmation=6 -w testnet-wallet-1.json -n http://testnet.axentro.io:3000
 ```
 
 The `--confirmation=` flag indicates we want to see the amount of coins that are present when looking at the balance as of  `latest block - 6 blocks`. 
@@ -63,13 +63,13 @@ All of the commands that require a wallet can also accept an encrypted wallet - 
 #### Create an encrypted wallet
 
 ```bash
-> ./sushi wallet create -w my-wallet.json -e --password=my-very-secure-password --testnet
+> ./axe wallet create -w my-wallet.json -e --password=my-very-secure-password --testnet
 ```
 
 #### Encrypt a wallet
 
 ```bash
-> ./sushi wallet encrypt -w my-clear-text-wallet.json --password=my-very-secure-password
+> ./axe wallet encrypt -w my-clear-text-wallet.json --password=my-very-secure-password
 ```
 
 This creates an encrypted version of the wallet prefixed with `encrypted` along side the original
@@ -77,7 +77,7 @@ This creates an encrypted version of the wallet prefixed with `encrypted` along 
 #### Decrypt a wallet
 
 ```bash
-> ./sushi wallet decrypt -w my-encrypted-wallet.json --password=my-very-secure-password
+> ./axe wallet decrypt -w my-encrypted-wallet.json --password=my-very-secure-password
 ```
 
 This creates an unencrypted version of the wallet prefixed with `unencrypted` along side the original

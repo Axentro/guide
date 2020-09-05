@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is SushiChain?](README.md)
+* [What is Axentro?](README.md)
 
 ## Getting Started
 
@@ -22,17 +22,17 @@
 
 ## CLI Applications
 
-* [Blockchain client (Sushi)](cli-apps/sushi.md)
-  * [Wallet](cli-apps/sushi/wallet.md)
-  * [Blockchain](cli-apps/sushi/blockchain.md)
-  * [Transaction](cli-apps/sushi/transaction.md)
-  * [Node](cli-apps/sushi/node.md)
-  * [Human readable addresses](cli-apps/sushi/scars.md)
-  * [Token](cli-apps/sushi/token.md)
+* [Blockchain client (Axe)](cli-apps/axe.md)
+  * [Wallet](cli-apps/axe/wallet.md)
+  * [Blockchain](cli-apps/axe/blockchain.md)
+  * [Transaction](cli-apps/axe/transaction.md)
+  * [Node](cli-apps/axe/node.md)
+  * [Human readable addresses](cli-apps/axe/scars.md)
+  * [Token](cli-apps/axe/token.md)
   * [Config](config/cli-config.md)
-  * [Misc](cli-apps/sushi/misc.md)
-* [Blockchain miner (Sushim)](cli-apps/sushim.md)
-* [Blockchain node (Sushid)](cli-apps/sushid.md)
+  * [Misc](cli-apps/axe/misc.md)
+* [Blockchain miner (Axem)](cli-apps/axem.md)
+* [Blockchain node (Axen)](cli-apps/axen.md)
 
 
 

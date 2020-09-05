@@ -15,7 +15,7 @@ You will need another wallet to be able to send coins to your wallet with the do
 So firstly lets see how many unconfirmed coins our wallet with the domain has:
 
 ```
-> ./sushi wallet amount --domain=mydomain.sc -n http://testnet.sushichain.io:3000
+> ./axe wallet amount --domain=mydomain.ax -n http://testnet.axentro.io:3000
 
  showing amount of each token for VDA4NTAxMzI1NmExZmY0ZTVkMGRjMGU4MGE0MWZlZThmYjNlZGYwYTAzMjYzYTI4.
  confirmation: 1
@@ -23,26 +23,26 @@ So firstly lets see how many unconfirmed coins our wallet with the domain has:
   + -------------------- - -------------------- +
   |                token |               amount |
   | -------------------- | -------------------- |
-  |                SUSHI |          59.29161346 |
+  |                  AXE |          59.29161346 |
   + -------------------- - -------------------- +
 ```
 
 and now lets send some coins to the wallet with the domain:
 
 ```bash
-./sushi transaction create -w testnet-wallet-2.json -n http://testnet.sushichain.io:3000 -m 2 -f 1 --domain=fullmetal.sc
+./axe transaction create -w testnet-wallet-2.json -n http://testnet.axentro.io:3000 -m 2 -f 1 --domain=fullmetal.ax
 ```
 
-So now once the transaction has been processed we should see the amount of coins in `mydomain.sc` increase by 2.
+So now once the transaction has been processed we should see the amount of coins in `mydomain.ax` increase by 2.
 
 ```
-> ./sushi wallet amount --domain=mydomain.sc -n http://testnet.sushichain.io:3000
+> ./axe wallet amount --domain=mydomain.ax -n http://testnet.axentro.io:3000
 
  showing amount of each token for VDA4NTAxMzI1NmExZmY0ZTVkMGRjMGU4MGE0MWZlZThmYjNlZGYwYTAzMjYzYTI4.
 
   + -------------------- - -------------------- +
   |                token |               amount |
   | -------------------- | -------------------- |
-  |                SUSHI |          61.29161346 |
+  |                  AXE |          61.29161346 |
   + -------------------- - -------------------- +
 ```

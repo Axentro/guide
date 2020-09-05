@@ -1,12 +1,12 @@
 ## Install from source
 
-Follow the directions below to install SushiChain from source:
+Follow the directions below to install Axentro from source:
 
 1. install the [Crystal programming language](https://crystal-lang.org/reference/installation/)
 
-2. Clone the [SushiChain](https://github.com/SushiChain/SushiChain) repository from Github
+2. Clone the [Axentro](https://github.com/Axentro/Axentro) repository from Github
 
-   `git clone https://github.com/SushiChain/SushiChain.git`
+   `git clone https://github.com/Axentro/Axentro.git`
 
 3. Install dependencies
 
@@ -19,20 +19,20 @@ Follow the directions below to install SushiChain from source:
 5. Install the binaries on your path (might need to use sudo):
 
    ```
-   mkdir -p /usr/local/bin/sushichain
+   mkdir -p /usr/local/bin/axentro
 
-   cp bin/sushi /usr/local/bin/sushichain
+   cp bin/axe /usr/local/bin/axentro
 
-   cp bin/sushid /usr/local/bin/sushichain
+   cp bin/axen /usr/local/bin/axentro
 
-   cp bin/sushim /usr/local/bin/sushichain
+   cp bin/axem /usr/local/bin/axentro
    ```
    
 
 6. You invoke the CLI binaries in your terminal by typing:
 
-   `sushi` - The command line blockchain client
+   `axe` - The command line blockchain client
 
-   `sushim` - The command line miner
+   `axem` - The command line miner
 
-   `sushid` - The blockchain node
+   `axen` - The blockchain node
