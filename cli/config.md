@@ -3,7 +3,7 @@
 Config can be used with all the binaries and provides a shortcut when using the command line. Consider this example:
 
 ```bash
-> axe tx create -m 5 -f 0.0001 -w wallets/w1.json -n http://testnet.axentro.io:3000 -a some-address --testnet --password=password
+> axe tx create -m 5 -f 0.0001 -w wallets/w1.json -n http://testnet.axentro.io -a some-address --testnet --password=password
 ```
 
 For every command you have to specify several command line options. Config can save these so you don't have to pass them everytime and instead if not passed they are retrieved from the config store. If any of the options are provided on the command line then they override any previously stored config options.
@@ -44,7 +44,7 @@ In addition to those usages you can also override config completely - which is v
 Save stores the specified config to the location: `~/.axentro/config`. You just have to supply the config you would like to save and a config name to save it under (the default name is config which is used if no name is supplied):
 
 ```bash
-> axe config save -n http://testnet.axentro.io:3000 --testnet --config=myconfig
+> axe config save -n http://testnet.axentro.io --testnet --config=myconfig
 ```
 
 ### Show
@@ -58,7 +58,7 @@ You can view the list of stored config using the show command:
 current configuration is for: 's1t' in file /Users/kings/.axentro/config
 configuration is Enabled
 --------------------
-connect_node:	http://testnet.axentro.io:3000
+connect_node:	http://testnet.axentro.io
 wallet_path:	/Users/kings/sc-wallets/w1.json
 is_testnet:	true
 is_private:	true

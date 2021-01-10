@@ -28,31 +28,23 @@ and we should see
 
 ```bash
 testnet-wallet-1.json is perfect!
-address: TTAzZDBlN2YwNTQ2MjI2YTVmMTA1ZjU4ZGQwMTgzNzQ4NTA3YTZhYjU4NjE0YWE1
+address: VDBkMzRmOWZlYWEwYmM4OWY4MjZhNDlmZThhNTY1MmI3NzZjYTNkZjVlNzYzMjZi
 network (T0): testnet
 ```
 
 ### Check the balance
 
 ```bash
-> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io:3000
+> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io
 ```
 
 Here we are checking the balance against the testnet - but you can supply the url of any node or even a locally running private node.
 
-When you check the balance it shows the amount after 1 confirmation. You can choose to supply more confirmations. Then number of confirmations is the number of blocks that have been added to the chain after the block that contains your transaction. Obviously the more blocks the more confidence you have that the block your transaction is in and the chain your are looking at as a whole is good. In the context of wallet amount it's looking at the balance at `latest block - number_of_confirmations`
+When you check the balance it shows the amount of confirmations. This is the number of blocks ontop of the block that contains the latest transaction that affects your wallet balance. In an active wallet e.g. used in mining - it will most likely always be 0 as new transactions are constantly arriving. But for less active wallets the number will vary depending on when the last transaction was.
 
 ```bash
-> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io:3000 
+> ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io 
 ```
-
-This is checking the amount of coins that have been successfully processed on the testnet - It defaults to 1 confirmation (i.e. `latest block - 1`)
-
-```bash
-> ./axe wallet amount --confirmation=6 -w testnet-wallet-1.json -n http://testnet.axentro.io:3000
-```
-
-The `--confirmation=` flag indicates we want to see the amount of coins that are present when looking at the balance as of  `latest block - 6 blocks`. 
 
 ### Encrypt / Decrypt a wallet
 
