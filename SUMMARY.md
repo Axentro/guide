@@ -4,6 +4,8 @@
 
 ## Getting Started
 
+* [Install Desktop Wallet](getting-started/install-desktop-wallet.md)
+* [Wallet Creation](getting-started/desktop-wallet-creation.md)
 * [Backing Up Your Wallet](getting-started/backup-your-wallet.md)
 * [Sending And Receiving](getting-started/sending-and-receiving.md)
 * [Create Human Readable Address](getting-started/create-human-readable-address.md)
