@@ -2,7 +2,7 @@
 
 * [What is Axentro?](README.md)
 
-## Getting Started
+## Getting Started (Graphical)
 
 * [Installation](getting-started/install.md)
 * [Creating a wallet](getting-started/creating-a-wallet.md)
@@ -16,6 +16,7 @@
 * [Using the domain](scars/using-the-domain.md)
 * [Buying & selling domains](scars/buying-and-selling.md)
 
+
 ## CLI Configuration
 
 * [What is CLI config?](config/cli-config.md)
@@ -24,6 +25,7 @@
 
 * [Blockchain client (Axe)](cli-apps/axe.md)
   * [Wallet](cli-apps/axe/wallet.md)
+    * [Token](cli-apps/axe/token.md)
   * [Blockchain](cli-apps/axe/blockchain.md)
   * [Transaction](cli-apps/axe/transaction.md)
   * [Node](cli-apps/axe/node.md)
