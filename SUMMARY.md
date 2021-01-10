@@ -2,48 +2,34 @@
 
 * [What is Axentro?](README.md)
 
-## Getting Started (Graphical)
+## Getting Started
 
-* [Installation](getting-started/install.md)
-* [Creating a wallet](getting-started/creating-a-wallet.md)
-* [Mining](getting-started/mining.md)
-* [Sending coins](getting-started/sending-coins.md)
+* [Desktop Wallet Install](getting-started/install-desktop-wallet.md)
+* [Wallet Creation](getting-started/desktop-wallet-creation.md)
+* [Backing Up Your Wallet](getting-started/backup-your-wallet.md)
+* [Sending And Receiving](getting-started/sending-and-receiving.md)
+* [Create Human Readable Address](getting-started/create-human-readable-address.md)
+* [Creating Tokens](getting-started/creating-tokens.md)
 
-## Human Readable Addresses
+## Mining
 
-* [What is SCARS?](scars/what-is-scars.md)
-* [Registering a domain](scars/registering-a-domain.md)
-* [Using the domain](scars/using-the-domain.md)
-* [Buying & selling domains](scars/buying-and-selling.md)
+* [How To Mine](mining/how-to-mine.md)
 
+## Using The CLI
 
-## CLI Configuration
+* [Installation](cli/install.md)
+* [Creating A Wallet](cli/creating-a-wallet.md)
+* [Mining](cli/mining.md)
+* [Sending Coins](cli/sending-coins.md)
+* [Human Readable Addresses](cli/what-are-hras.md)
+  * [Registering a domain](cli/registering-a-domain.md)
+  * [Using the domain](cli/using-the-domain.md)
+  * [Buying & selling domains](cli/buying-and-selling.md)
+* [What is CLI config?](cli/config.md)
 
-* [What is CLI config?](config/cli-config.md)
+## Using the API
 
-## CLI Applications
-
-* [Blockchain client (Axe)](cli-apps/axe.md)
-  * [Wallet](cli-apps/axe/wallet.md)
-    * [Token](cli-apps/axe/token.md)
-  * [Blockchain](cli-apps/axe/blockchain.md)
-  * [Transaction](cli-apps/axe/transaction.md)
-  * [Node](cli-apps/axe/node.md)
-  * [Human readable addresses](cli-apps/axe/scars.md)
-  * [Token](cli-apps/axe/token.md)
-  * [Config](config/cli-config.md)
-  * [Misc](cli-apps/axe/misc.md)
-* [Blockchain miner (Axem)](cli-apps/axem.md)
-* [Blockchain node (Axen)](cli-apps/axen.md)
-
-
-
-
-
-
-
-
-
-
-
-##
+* [Block Information](api/block-info.md)
+* [Wallet Balances](api/wallet-info.md)
+* [Transaction Information](api/transaction-info.md)
+* [Sending Tokens](api/sending-tokens.md)
