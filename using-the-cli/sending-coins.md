@@ -1,4 +1,4 @@
-## Sending Coins
+# Sending Coins
 
 Ok so now we have some coins - what can we do with them? Well we could send them to someone else!
 
@@ -17,9 +17,9 @@ the `cat` command will show you the contents of the wallet including the address
 
 * The `-f` flag is the fee - every transaction has a fee - sending coins has a minimum fee of 0.0001 AXNT.
 * The `-m` flag is the amount of coins to send - here we said 2 coins.
-* The `-a` flag is the address we want to send to (the address from our second wallet we created above)
+* The `-a` flag is the address we want to send to \(the address from our second wallet we created above\)
 
-Now when you check the first wallet's amount you will see it is 2 coins (plus the fee) less than it was before. Everytime you send some coins the sender gets charged a small fee.
+Now when you check the first wallet's amount you will see it is 2 coins \(plus the fee\) less than it was before. Everytime you send some coins the sender gets charged a small fee.
 
 Have a look at the coins for wallet1:
 

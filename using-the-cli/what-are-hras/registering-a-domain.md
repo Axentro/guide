@@ -1,8 +1,8 @@
-## Registering a domain
+# Registering a domain
 
 Since registering a domain is free you can easily do this from the `axe` command line client. Lets see an example:
 
-* First create a wallet (if you already have one you can skip this step) on the testnet
+* First create a wallet \(if you already have one you can skip this step\) on the testnet
 
 ```bash
 > ./axe wallet create -w testnet-wallet-1.json --testnet
@@ -10,7 +10,7 @@ Since registering a domain is free you can easily do this from the `axe` command
 
 * Let's check the fees so we know the amount we need to specify
 
-```
+```text
 > ./axe transaction fees -n http://testnet.axentro.io
 
   + ------------------------------ - ------------------------------ +
@@ -30,16 +30,16 @@ As you can see the fee for buying a domain is `0.001` so with a new wallet we wi
 > ./axem -w testnet-wallet-1.json --testnet -n http://testnet.axentro.io --process=2
 ```
 
-Keep checking your wallet and when you have some coins in your wallet then you are ready to keep going (it could take about 10-15 mins):
+Keep checking your wallet and when you have some coins in your wallet then you are ready to keep going \(it could take about 10-15 mins\):
 
 ```bash
 > ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io
 ```
 
-* Now lets create a domain for the wallet (the fee is 0.001) - and just set the price to 0
+* Now lets create a domain for the wallet \(the fee is 0.001\) - and just set the price to 0
 
 ```bash
-> ./axe hra buy -w testnet-wallet-1.json -n http://testnet.axentro.io -f 0.001 --price=0 --domain=mydomain.ax 
+> ./axe hra buy -w testnet-wallet-1.json -n http://testnet.axentro.io -f 0.001 --price=0 --domain=mydomain.ax
 ```
 
 If it was successful you will get a success message that includes a transaction id - once this transaction is processed the domain will be available. So we can check the transaction id to see if it's been processed:
@@ -61,3 +61,4 @@ address  : VDA4NTAxMzI1NmExZmY0ZTVkMGRjMGU4MGE0MWZlZThmYjNlZGYwYTAzMjYzYTI4
 status   : acquired
 price    : 0
 ```
+

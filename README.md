@@ -15,21 +15,22 @@ Axentro is an original proof of work blockchain platform that empowers developer
 
 ## Specification
 
-|                 Name  |  Axentro                    |
-| --------------------: | :-------------------------- |
-|          Coin ticker  |  AXNT                       |
-|            Coin name  |  AXNT                       |
-|            Consensus  |  CDPoW                      |
-|     Max Block reward  |  12 AXNT (decreasing)       |
-|         Miner reward  |  Prorated on contribution   |
-|   Slow Block spacing  |  120 seconds                |
-|   Fast Block spacing  |  2 seconds                  |
-|   Block spacing algo  |  Dark Crystal Gravity Wave  |
-|       Developer fund  |  10,000,000 AXNT            |
-|       Total mineable  |  20,000,000 AXNT            |
-|   Total non-mineable  |  15,000,000 AXNT            |
-|         Total Supply  |  45,000,000 AXNT            |
-|             Maturity  |  7 Blocks                   |
-|      Minimum txn fee  |  0.0001 AXNT                |
-| PoW mining algorithm  |  Argon2id                   |
-|                 Port  |  80/443                     |
+| Name | Axentro |
+| ---: | :--- |
+| Coin ticker | AXNT |
+| Coin name | AXNT |
+| Consensus | CDPoW |
+| Max Block reward | 12 AXNT \(decreasing\) |
+| Miner reward | Prorated on contribution |
+| Slow Block spacing | 120 seconds |
+| Fast Block spacing | 2 seconds |
+| Block spacing algo | Dark Crystal Gravity Wave |
+| Developer fund | 10,000,000 AXNT |
+| Total mineable | 20,000,000 AXNT |
+| Total non-mineable | 15,000,000 AXNT |
+| Total Supply | 45,000,000 AXNT |
+| Maturity | 7 Blocks |
+| Minimum txn fee | 0.0001 AXNT |
+| PoW mining algorithm | Argon2id |
+| Port | 80/443 |
+

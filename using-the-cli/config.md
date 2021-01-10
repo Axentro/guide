@@ -1,3 +1,5 @@
+# What is CLI config?
+
 ## What is config for
 
 Config can be used with all the binaries and provides a shortcut when using the command line. Consider this example:
@@ -20,7 +22,7 @@ we think you will agree that is much easier to work with.
 
 There are 7 things you can do with config:
 
-```
+```text
 available sub actions
  - save                 | save the specified options as default for axe, axen and axem
  - show                 | show current default configuration
@@ -41,7 +43,7 @@ In addition to those usages you can also override config completely - which is v
 
 ### Save
 
-Save stores the specified config to the location: `~/.axentro/config`. You just have to supply the config you would like to save and a config name to save it under (the default name is config which is used if no name is supplied):
+Save stores the specified config to the location: `~/.axentro/config`. You just have to supply the config you would like to save and a config name to save it under \(the default name is config which is used if no name is supplied\):
 
 ```bash
 > axe config save -n http://testnet.axentro.io --testnet --config=myconfig
@@ -54,23 +56,24 @@ You can view the list of stored config using the show command:
 ```bash
 > axe config show
 ```
-```
+
+```text
 current configuration is for: 's1t' in file /Users/kings/.axentro/config
 configuration is Enabled
 --------------------
-connect_node:	http://testnet.axentro.io
-wallet_path:	/Users/kings/sc-wallets/w1.json
-is_testnet:	true
-is_private:	true
-bind_host:	0.0.0.0
-bind_port:	3000
-processes:	1
-encrypted:	false
+connect_node:    http://testnet.axentro.io
+wallet_path:    /Users/kings/sc-wallets/w1.json
+is_testnet:    true
+is_private:    true
+bind_host:    0.0.0.0
+bind_port:    3000
+processes:    1
+encrypted:    false
 ```
 
 ### Remove
 
-If you want to remove a specific configuration or all configurations (this will delete the config file)
+If you want to remove a specific configuration or all configurations \(this will delete the config file\)
 
 ```bash
 > axe config remove --config=myconfig
@@ -97,7 +100,7 @@ To see a list of all the saved configs
 
 If you want to completely disable configurations so they don't apply or turn them back on again:
 
-```
+```text
 > axe config disable
 > axe config enable
 ```
@@ -106,17 +109,17 @@ If you want to completely disable configurations so they don't apply or turn the
 
 The following config can be saved:
 
-| Option name     | Flag        | binary |
-| --------------- | ----------- | ------ |
-| Connecting node | -n          | all    |
-| Wallet path     | -w          | all    |
-| Wallet password | --password= | all    |
-| Is testnet      | --testnet   | all    |
-| Is private      | --private   | axen   |
-| Bind host       | -h          | axen   |
-| Bind port       | -p          | axen   |
-| Public url      | -u          | axen   |
-| Database path   | -d          | axen   |
-| Threads         | --threads=  | axem   |
-| Encrypted       | -e          | axe    |
+| Option name | Flag | binary |
+| :--- | :--- | :--- |
+| Connecting node | -n | all |
+| Wallet path | -w | all |
+| Wallet password | --password= | all |
+| Is testnet | --testnet | all |
+| Is private | --private | axen |
+| Bind host | -h | axen |
+| Bind port | -p | axen |
+| Public url | -u | axen |
+| Database path | -d | axen |
+| Threads | --threads= | axem |
+| Encrypted | -e | axe |
 

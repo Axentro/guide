@@ -1,10 +1,10 @@
-## Buying and selling domains
+# Buying & selling domains
 
-In the previous part of this guide we saw how to buy a domain (for a price of 0) from the platform. But we can also buy from someone who has put their domain up for sale. 
+In the previous part of this guide we saw how to buy a domain \(for a price of 0\) from the platform. But we can also buy from someone who has put their domain up for sale.
 
 To see what is up for sale:
 
-```
+```text
 > ./axe hra sales -n http://testnet.axentro.io
 
 hra domains for sale!

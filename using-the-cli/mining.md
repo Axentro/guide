@@ -1,3 +1,5 @@
+# Mining
+
 ## Mining against the testnet
 
 Now it's time to do some mining. For mining we use the `axem` binary.
@@ -14,7 +16,7 @@ Leave the miner running for about 2-3 minutes and then let's have a look in our 
 > ./axe wallet amount -w testnet-wallet-1.json -n http://testnet.axentro.io
 ```
 
-If we look at the amount of coins you will see you will have something like 0.7 
+If we look at the amount of coins you will see you will have something like 0.7
 
 Depending on when you look - you might see it still says 0.0 - but after mining for a while the transactions will be processed and the blocks added to the testnet and then you will see the balance start to increase.
 
@@ -33,3 +35,4 @@ More information will be provided on running public nodes in the near future
 The main motivation for mining is to receive rewards. When a new block is mined the total payout is `0.5 AXNT`. The node on which the block was mined always receives `25%` of the total payout and all the miners connected to the node receive a prorated amount depending on how many hashes each miner has worked through.
 
 For example a single miner on the network would expect to receive the full `75%` of the block reward. Three miners all working at approximately the same hash rate would receive `25%` each. In some cases if there are a great many miners connected to the node and some of them have an insignificant hash rate compared to the majority then they will not receive any reward.
+

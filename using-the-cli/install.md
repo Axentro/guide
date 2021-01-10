@@ -1,9 +1,8 @@
-## Install from source
+# Installation
 
 Follow the directions below to install Axentro from source:
 
 1. install the [Crystal programming language](https://crystal-lang.org/reference/installation/)
-
 2. Clone the [Axentro](https://github.com/Axentro/Axentro) repository from Github
 
    `git clone https://github.com/Axentro/Axentro.git`
@@ -16,9 +15,9 @@ Follow the directions below to install Axentro from source:
 
    `shards build --release --no-debug`
 
-5. Install the binaries on your path (might need to use sudo):
+5. Install the binaries on your path \(might need to use sudo\):
 
-   ```
+   ```text
    mkdir -p /usr/local/bin/axentro
 
    cp bin/axe /usr/local/bin/axentro
@@ -27,7 +26,6 @@ Follow the directions below to install Axentro from source:
 
    cp bin/axem /usr/local/bin/axentro
    ```
-   
 
 6. You invoke the CLI binaries in your terminal by typing:
 
@@ -36,3 +34,4 @@ Follow the directions below to install Axentro from source:
    `axem` - The command line miner
 
    `axen` - The blockchain node
+
