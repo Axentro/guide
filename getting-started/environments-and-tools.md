@@ -11,7 +11,7 @@ The Axentro platform has 2 environments:
 
 We have a cross platform Desktop wallet which you can download and install from our website
 
-* Desktop Wallet - see [Installing the desktop wallet](getting-started/install-desktop-wallet.md)
+* Desktop Wallet - see [Installing the desktop wallet](/getting-started/install-desktop-wallet.md)
 
 ## Blockchain Explorer
 
