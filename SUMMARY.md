@@ -29,8 +29,6 @@
 
 ## Using the API
 
-* [Block Information](using-the-api/block-information.md)
-* [Wallet Balances](using-the-api/wallet-balances.md)
-* [Transaction Information](using-the-api/transaction-information.md)
-* [Sending Tokens](using-the-api/sending-tokens.md)
+* [Overview](using-the-api/overview.md)
+* [Signing & Sending Transactions](using-the-api/signing-and-sending-transactions.md)
 
