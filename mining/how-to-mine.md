@@ -1,13 +1,11 @@
 # Mining
 
-## Mining using the Axem cli
-
 There are 2 ways to mine currently.
 
-* MinAxnt - cross platform miner (Recommended)
-* Axem - runs on Linux, MacOs and currently must be compiled from the Axentro source code
+* `MinAxnt` - cross platform miner (Recommended)
+* `Axem` - runs on Linux, MacOs and currently must be compiled from the Axentro source code
 
-You can mine against the testnet or mainnet:
+You can mine against the testnet (for experimenting) or mainnet (for real):
 
 * [http://testnet.axentro.io](http://testnet.axentro.io)
 * [http://mainnet.axentro.io](http://mainnet.axentro.io)

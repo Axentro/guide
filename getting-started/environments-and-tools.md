@@ -4,8 +4,8 @@
 
 The Axentro platform has 2 environments:
 
-* TestNet - [http://testnet.axentro.io](http://testnet.axentro.io)
-* MainNet - [http://mainnet.axentro.io](http://mainnet.axentro.io)
+* TestNet (for testing and pre-releases) - [http://testnet.axentro.io](http://testnet.axentro.io)
+* MainNet (for real) - [http://mainnet.axentro.io](http://mainnet.axentro.io)
 
 ## Desktop Wallet
 
