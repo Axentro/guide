@@ -7,6 +7,12 @@ The Axentro platform has 2 environments:
 * TestNet - [http://testnet.axentro.io](http://testnet.axentro.io)
 * MainNet - [http://mainnet.axentro.io](http://mainnet.axentro.io)
 
+## Desktop Wallet
+
+We have a cross platform Desktop wallet which you can download and install from our website
+
+* Desktop Wallet - see [Installing the desktop wallet](getting-started/install-desktop-wallet.md)
+
 ## Blockchain Explorer
 
 We also have a Blockchain Explorer:
