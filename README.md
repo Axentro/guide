@@ -3,12 +3,16 @@
 Axentro is an original proof of work blockchain platform that empowers developers to build decentralised apps quickly and cheaply. It features the following:
 
 * CPU only mining using the award winning Argon2d hashing algorithm
-* Decentraliased apps platform
+* Decentralized apps platform
 * Human readable addresses
 * Smart assets
 * Distributed two factor authentication
 * Globally shared distributed mining rewards
 
+## Whitepaper
+
+You can read our [WhitePaper](https://axentro.io/axentro_whitepaper.pdf)
+ 
 ## Why is it named Axentro?
 
 * Developed from the word 'accent' which means to 'heighten' or 'peak' Axentro is an blockchain that is aiming for the top in terms of simplicity, usability and relevant features.
