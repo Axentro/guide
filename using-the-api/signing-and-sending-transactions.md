@@ -11,21 +11,25 @@ In order to send tokens from your address to another address using the API there
 The first step is to use the API endpoint: [https://mainnet.axentro.io/api/v1/transaction/send_token/unsigned](https://mainnet.axentro.io/api/v1/transaction/send_token/unsigned) by making a POST request with the json for the transaction:
 
 ```json
-  {
-      "from_address": "VDBkYWQxZjZlZjllOTAzYzNiODQ0NmZkZTI4NDBhYmMzYjUxYThjM2E1ZjNkODlj",
-      "public_key": "48c45b7e45cd415187216452fa22523e002ca042c2bd7205484f29201c3d5806f90e7aeebad37e3fbe01286c25d4027d3f3fec7b5647eff33c07ebd287b57242",
-      "amount": "10",
-      "fee": "0.0001", 
-      "to_address": "VDBlY2I4ZjA5MTUxOWE0MTIwNTRmZjlhYTM1YjYxMjcwNjM1YzcxYjlkMDZhZDUx", 
-      "kind": "FAST"
-  }
+{
+ "from_address": "VDBkYWQxZjZlZjllOTAzYzNiODQ0NmZkZTI4NDBhYmMzYjUxYThjM2E1ZjNkODlj",
+ "public_key": "48c45b7e45cd415187216452fa22523e002ca042c2bd7205484f29201c3d5806f90e7aeebad37e3fbe01286c25d4027d3f3fec7b5647eff33c07ebd287b57242",
+ "amount": "10",
+ "fee": "0.0001", 
+ "to_address": "VDBlY2I4ZjA5MTUxOWE0MTIwNTRmZjlhYTM1YjYxMjcwNjM1YzcxYjlkMDZhZDUx", 
+ "kind": "FAST"
+}
 ```
 You can get this information from your wallet. If you use the desktop wallet you can go to tools backup and it will produce a backup json that has this information. If you created your wallet using the cli tool `axe` then it produces the same json as the desktop wallet.
 
 for example given this wallet json:
 
 ```json
-{"public_key":"8b3c61787fb6b07bb20e4a908deca52ef96335e4faaaaca18a227f9d674dcc57","wif":"VDBhMjY5YzE4NzA1YmY4MTRiMmE2Y2I2NGY1NjllMjdmMzAzMDIwMmMwZTZkNDczNjBlM2M5OGNkZWMzNmUwODY1OTNkMjdi","address":"VDAyNThiOWFiN2Q5YWM3ZjUyYTNhYzQwZTY1NDBmYWJkMjczZmVmZThlOTgzMWM4"}
+{
+ "public_key":"8b3c61787fb6b07bb20e4a908deca52ef96335e4faaaaca18a227f9d674dcc57",
+ "wif":"VDBhMjY5YzE4NzA1YmY4MTRiMmE2Y2I2NGY1NjllMjdmMzAzMDIwMmMwZTZkNDczNjBlM2M5OGNkZWMzNmUwODY1OTNkMjdi",
+ "address":"VDAyNThiOWFiN2Q5YWM3ZjUyYTNhYzQwZTY1NDBmYWJkMjczZmVmZThlOTgzMWM4"
+}
 ```
 
 You can see the `address` and `public_key` needed for the POST request mentioned above. 
