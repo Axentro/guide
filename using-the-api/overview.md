@@ -13,7 +13,7 @@ Most of the API's are paginated when returning lots of data.
 
 The wallet adddress API endpoint returns the wallet balances along with the most 50 recent transactions.
 
-* [api/v1/wallet/_address_](http://mainnet.axentro.io/#/get~wallet~address)
+* [api/v1/wallet/{**address**}](http://mainnet.axentro.io/#/get~wallet~address)
 
 The token amount API endpoint returns the balance for a specified token in the specified wallet
 
