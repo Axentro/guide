@@ -24,8 +24,8 @@ We also have a Blockchain Explorer:
 
 We have 2 mining tools:
 
-* MinAxnt (Recommended) - cross platform mining - see [How to mine](mining/how-to-mine.md)
-* Axem - Linux, MacOs - see [How to mine](mining/how-to-mine.md)
+* `MinAxnt` (Recommended) - cross platform mining - see [How to mine](mining/how-to-mine.md)
+* `Axem` - Linux, MacOs - see [How to mine](mining/how-to-mine.md)
 
 ## Node & Client
 
