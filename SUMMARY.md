@@ -3,7 +3,7 @@
 * [What is Axentro?](README.md)
 
 ## Getting Started
-
+* [Environments & Tools](getting-started/environments-and-tools.md)
 * [Install Desktop Wallet](getting-started/install-desktop-wallet.md)
 * [Wallet Creation](getting-started/desktop-wallet-creation.md)
 * [Backing Up Your Wallet](getting-started/backup-your-wallet.md)
@@ -19,7 +19,7 @@
 
 * [Installation](using-the-cli/install.md)
 * [Creating A Wallet](using-the-cli/creating-a-wallet.md)
-* [Mining](using-the-cli/mining.md)
+* [Mining](mining/how-to-mine.md)
 * [Sending Coins](using-the-cli/sending-coins.md)
 * [Human Readable Addresses](using-the-cli/what-are-hras/README.md)
   * [Registering a domain](using-the-cli/what-are-hras/registering-a-domain.md)
