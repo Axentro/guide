@@ -47,4 +47,4 @@ When sending transactions it's recommended to use FAST transactions.
 
 ## Signing and Sending Transactions
 
-Please see the [Signing and Sending Transactions](using-the-api/signing-and-sending-transactions.md) page for detailed information.
+Please see the [Signing and Sending Transactions](/using-the-api/signing-and-sending-transactions.md) page for detailed information.

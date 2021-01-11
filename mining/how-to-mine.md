@@ -19,7 +19,7 @@ You can mine using MinAxnt on Windows, Linux, MacOs and Android mobile phones. T
 
 ## Using Axem
 
-To use the `axem` binary you must first compile and build it. See instructions for [installing the cli tools](using-the-cli/install.md). The `axem` tool only runs on Linux and MacOs.
+To use the `axem` binary you must first compile and build it. See instructions for [installing the cli tools](/using-the-cli/install.md). The `axem` tool only runs on Linux and MacOs.
 
 ```bash
 > ./axem -w testnet-wallet-1.json --testnet -n http://testnet.axentro.io --process=2
@@ -27,7 +27,7 @@ To use the `axem` binary you must first compile and build it. See instructions f
 
 This is going to startup a miner that connects to the testnet node with 2 processes. We supply the wallet we want our rewards to go to with the `-w` flag. The `-n` flag is how we specify our connecting node - which in this case is the testnet node.
 
-Leave the miner running for about 2-3 minutes and then let's have a look in our wallet. You can either look in the desktop wallet or use the `axe` cli if you installed it ([installing the cli tools](using-the-cli/install.md))
+Leave the miner running for about 2-3 minutes and then let's have a look in our wallet. You can either look in the desktop wallet or use the `axe` cli if you installed it ([installing the cli tools](/using-the-cli/install.md))
 
 You can also look in the blockchain explorer: 
 

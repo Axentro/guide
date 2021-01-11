@@ -10,7 +10,7 @@ Let's try to receive some coins to our wallet via the domain
 
 ## Sending coins to the domain
 
-You will need another wallet to be able to send coins to your wallet with the domain. If you don't have another one - go and follow the instructions to [create and populate a wallet](https://github.com/Axentro/guide/tree/1af9e51da11ba0bd72095f71d87bcc75f8a142c0/cli/getting-started/creating-a-wallet/README.md) with some coins and [sending coins](https://github.com/Axentro/guide/tree/1af9e51da11ba0bd72095f71d87bcc75f8a142c0/cli/getting-started/sending-coins/README.md).
+You will need another wallet to be able to send coins to your wallet with the domain. If you don't have another one - go and follow the instructions to [create and populate a wallet](/using-the-cli/creating-a-wallet.md) with some coins and [sending coins](/using-the-cli/sending-coins.md).
 
 So firstly lets see how many unconfirmed coins our wallet with the domain has:
 
