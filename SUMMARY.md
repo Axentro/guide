@@ -32,3 +32,6 @@
 * [Overview](using-the-api/overview.md)
 * [Signing & Sending Transactions](using-the-api/signing-and-sending-transactions.md)
 
+## Developer Docs
+
+* [Setting up & Testing](dev/testing-local-nodes.md)
