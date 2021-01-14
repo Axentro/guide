@@ -84,7 +84,7 @@ axen -w your-wallet-address-3.json --testnet -u http://localhost:3002 -p 3002 -d
 ```
 
 ```bash
-axen -w your-wallet-address-4.json --testnet -u http://localhost:3002 -p 3002 -d my_db_2.sqlite3 -n http://localhost:3000
+axen -w your-wallet-address-4.json --testnet -u http://localhost:3003 -p 3003 -d my_db_2.sqlite3 -n http://localhost:3000
 ```
 
 Now you can start miners against one or more of the nodes e.g.
