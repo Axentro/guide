@@ -31,6 +31,7 @@
 
 * [Overview](using-the-api/overview.md)
 * [Signing & Sending Transactions](using-the-api/signing-and-sending-transactions.md)
+* [Crypto](using-the-api/crypto.md)
 
 ## Developer Docs
 
