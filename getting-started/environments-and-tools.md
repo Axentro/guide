@@ -13,6 +13,12 @@ We have a cross platform Desktop wallet which you can download and install from 
 
 * Desktop Wallet - see [Installing the desktop wallet](/getting-started/install-desktop-wallet.md)
 
+## Web Wallet
+
+We have a web wallet. Please BACKUP the wallet via the tools menu as it's stored encrypted in local browser storage
+
+* Web Wallet - [https://axentro.xyz/](https://axentro.xyz/)
+
 ## Blockchain Explorer
 
 We also have a Blockchain Explorer:
