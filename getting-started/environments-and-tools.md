@@ -23,8 +23,8 @@ We have a web wallet. Please BACKUP the wallet via the tools menu as it's stored
 
 We also have a Blockchain Explorer:
 
-* TestNet - [https://testnet-explorer.io](https://testnet-explorer.io)
-* MainNet - [https://mainnet-explorer.io](https://mainnet-explorer.io)
+* TestNet - [https://testnet-explorer.io](https://testnet-explorer.io) (not up at the moment)
+* MainNet - [https://explorer.axentro.io](https://explorer.axentro.io)
 
 ## Mining Tools
 
